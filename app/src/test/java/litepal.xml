@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+
+    <dbname value="student" ></dbname>
+
+    <version value="7" ></version>
+
+    <list>
+
+        <mapping class="com.swun.student.object.School"></mapping>
+        <mapping class="com.swun.student.object.Building"></mapping>
+        <mapping class="com.swun.student.object.Classroom"></mapping>
+        <mapping class="com.swun.student.object.StudyTime"></mapping>
+        <mapping class="com.swun.student.object.Academy"></mapping>
+        <mapping class="com.swun.student.object.Game"></mapping>
+        <mapping class="com.swun.student.object.People"></mapping>
+    </list>
+
+</litepal>

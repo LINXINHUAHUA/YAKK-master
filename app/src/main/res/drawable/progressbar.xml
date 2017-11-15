@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-rotate
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:pivotX="50%" android:pivotY="50%"
+    android:fromDegrees="0"
+    android:toDegrees="360">
+
+    <!--
+    android:shape="rectangle|line|oval|ring" //分别为矩形、线、椭圆、环。默认为矩形rectangle
+    android:innerRadius="integer"            // shape为ring时可用，内环半径
+    android:innerRadiusRatio="float"         // shape为ring时可用，内环的厚度比，即环的宽度比表示内环半径，默认为3，可被innerRadius值覆盖
+    android:type="sweep"                     //渐变类型
+    -->
+
+    <shape
+        android:shape="ring"
+        android:innerRadiusRatio="3"
+        android:thicknessRatio="8"
+        android:useLevel="false">
+        <gradient
+            android:type="sweep"
+            android:useLevel="false"
+            android:startColor="#6BD3FF"
+            android:centerColor="#FF7121"
+            android:centerY="0.50"
+            android:endColor="#FFFF00" />
+    </shape>
+
+</animated-rotate>

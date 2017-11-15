@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1dd6e7</color>
+    <color name="colorPrimaryDark">#1dd6e7</color>
+    <color name="colorAccent">#6eff0048</color>
+
+    <color name="time_rank_green">#6eff0048</color>
+    <color name="time_rank_black">#1dd6e7</color>
+</resources>
